@@ -153,6 +153,7 @@ body {
 }
 
 .hero-container {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -184,15 +185,15 @@ body {
   margin-bottom: 32px;
 }
 
-
-
 .hero-img {
+  position: absolute;
+  right: 20px;
+  top: -40px;
   width: 550px;
   height: 550px;
   border-radius: 8px;
   box-shadow: 24px 24px 0 0 rgba(255, 117, 0, 0.6);
 }
-
 
 
 /* FEATURES */
@@ -258,6 +259,7 @@ body {
 }
 
 .promo-inner {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -297,6 +299,9 @@ body {
 }
 
 .promo-img {
+  position: absolute;
+  right: 64px;
+  bottom: 64px;
   width: 440px;
   height: 440px;
   border-radius: 12px;
